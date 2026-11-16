@@ -1,0 +1,97 @@
+[
+  {
+    "screenId": "43baae2ce9324496aeb068d20f7e4a78",
+    "screenTitle": "Play Page - Star Lane Collector",
+    "deviceType": "DESKTOP",
+    "elements": [
+      {
+        "type": "button",
+        "label": "Start Round",
+        "line": 66
+      },
+      {
+        "type": "button",
+        "label": "Restart Round",
+        "line": 69
+      },
+      {
+        "type": "button",
+        "label": "Open Settings",
+        "line": 72
+      },
+      {
+        "type": "button",
+        "label": "Move Left",
+        "line": 135
+      },
+      {
+        "type": "button",
+        "label": "Move Center",
+        "line": 141
+      },
+      {
+        "type": "button",
+        "label": "Move Right",
+        "line": 147
+      },
+      {
+        "type": "button",
+        "label": "Collect Star",
+        "line": 155
+      },
+      {
+        "type": "button",
+        "label": "Resume Game",
+        "line": 205
+      }
+    ],
+    "navigation": [],
+    "buttons": [
+      {
+        "type": "button",
+        "label": "Start Round",
+        "line": 66
+      },
+      {
+        "type": "button",
+        "label": "Restart Round",
+        "line": 69
+      },
+      {
+        "type": "button",
+        "label": "Open Settings",
+        "line": 72
+      },
+      {
+        "type": "button",
+        "label": "Move Left",
+        "line": 135
+      },
+      {
+        "type": "button",
+        "label": "Move Center",
+        "line": 141
+      },
+      {
+        "type": "button",
+        "label": "Move Right",
+        "line": 147
+      },
+      {
+        "type": "button",
+        "label": "Collect Star",
+        "line": 155
+      },
+      {
+        "type": "button",
+        "label": "Resume Game",
+        "line": 205
+      }
+    ],
+    "inputs": [],
+    "hardcodedData": [],
+    "totalInteractive": 8,
+    "requiresRouter": false,
+    "requiresDragDrop": false
+  }
+]

@@ -1,0 +1,390 @@
+{
+  "generatedAt": "2026-11-16T21:19:40.860Z",
+  "screenCount": 1,
+  "screens": {
+    "43baae2ce9324496aeb068d20f7e4a78": {
+      "screenId": "43baae2ce9324496aeb068d20f7e4a78",
+      "materialSymbolsRequired": false,
+      "sections": [
+        {
+          "tag": "header",
+          "layout": "flex-row",
+          "classes": [
+            "flex",
+            "flex-wrap",
+            "items-center",
+            "justify-between",
+            "gap-4",
+            "border-b",
+            "border-indigo-900/50",
+            "pb-5",
+            "max-w-6xl",
+            "mx-auto"
+          ],
+          "childCount": 8
+        },
+        {
+          "tag": "main",
+          "layout": "flex-col",
+          "classes": [
+            "my-auto",
+            "py-6",
+            "flex",
+            "flex-col",
+            "items-center",
+            "justify-center",
+            "max-w-6xl",
+            "mx-auto",
+            "w-full"
+          ],
+          "childCount": 18
+        },
+        {
+          "tag": "footer",
+          "layout": "flex-row",
+          "classes": [
+            "pt-6",
+            "border-t",
+            "border-slate-900/80",
+            "flex",
+            "flex-wrap",
+            "items-center",
+            "justify-between",
+            "gap-2",
+            "text-xs",
+            "text-slate-500"
+          ],
+          "childCount": 2
+        }
+      ],
+      "buttons": [
+        {
+          "kind": "button",
+          "label": "Start Round",
+          "classes": [
+            "px-4",
+            "py-2",
+            "rounded-lg",
+            "bg-emerald-600",
+            "hover:bg-emerald-500",
+            "text-white",
+            "font-medium",
+            "text-sm",
+            "transition",
+            "shadow-lg",
+            "shadow-emerald-900/40",
+            "border",
+            "border-emerald-400/30",
+            "focus:outline-none",
+            "focus:ring-2",
+            "focus:ring-emerald-400"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Restart Round",
+          "classes": [
+            "px-4",
+            "py-2",
+            "rounded-lg",
+            "bg-slate-800",
+            "hover:bg-slate-700",
+            "text-slate-200",
+            "font-medium",
+            "text-sm",
+            "transition",
+            "border",
+            "border-slate-700",
+            "focus:outline-none",
+            "focus:ring-2",
+            "focus:ring-slate-500"
+          ],
+          "icon": null,
+          "action": "reset",
+          "expectedBehavior": "reset visible value/state, with confirmation if destructive"
+        },
+        {
+          "kind": "button",
+          "label": "Open Settings",
+          "classes": [
+            "px-4",
+            "py-2",
+            "rounded-lg",
+            "bg-indigo-950/80",
+            "hover:bg-indigo-900/80",
+            "text-indigo-200",
+            "font-medium",
+            "text-sm",
+            "transition",
+            "border",
+            "border-indigo-700/60",
+            "focus:outline-none",
+            "focus:ring-2",
+            "focus:ring-indigo-400"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Move Left",
+          "classes": [
+            "px-5",
+            "py-2.5",
+            "rounded-lg",
+            "bg-slate-800",
+            "hover:bg-slate-700",
+            "text-slate-100",
+            "font-medium",
+            "text-sm",
+            "transition",
+            "border",
+            "border-slate-700/80",
+            "shadow",
+            "flex",
+            "items-center",
+            "gap-2",
+            "focus:outline-none",
+            "focus:ring-2",
+            "focus:ring-indigo-400"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Move Center",
+          "classes": [
+            "px-5",
+            "py-2.5",
+            "rounded-lg",
+            "bg-slate-800",
+            "hover:bg-slate-700",
+            "text-slate-100",
+            "font-medium",
+            "text-sm",
+            "transition",
+            "border",
+            "border-slate-700/80",
+            "shadow",
+            "flex",
+            "items-center",
+            "gap-2",
+            "focus:outline-none",
+            "focus:ring-2",
+            "focus:ring-indigo-400"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Move Right",
+          "classes": [
+            "px-5",
+            "py-2.5",
+            "rounded-lg",
+            "bg-slate-800",
+            "hover:bg-slate-700",
+            "text-slate-100",
+            "font-medium",
+            "text-sm",
+            "transition",
+            "border",
+            "border-slate-700/80",
+            "shadow",
+            "flex",
+            "items-center",
+            "gap-2",
+            "focus:outline-none",
+            "focus:ring-2",
+            "focus:ring-indigo-400"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Collect Star",
+          "classes": [
+            "px-6",
+            "py-2.5",
+            "rounded-xl",
+            "bg-gradient-to-r",
+            "from-amber-500",
+            "to-yellow-400",
+            "hover:from-amber-400",
+            "hover:to-yellow-300",
+            "text-slate-950",
+            "font-bold",
+            "text-sm",
+            "transition",
+            "shadow-lg",
+            "shadow-amber-500/20",
+            "border",
+            "border-yellow-200/50",
+            "flex",
+            "items-center",
+            "gap-2",
+            "focus:outline-none",
+            "focus:ring-2",
+            "focus:ring-amber-400"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Resume Game",
+          "classes": [
+            "w-full",
+            "sm:w-auto",
+            "px-6",
+            "py-2.5",
+            "rounded-xl",
+            "bg-indigo-600",
+            "hover:bg-indigo-500",
+            "text-white",
+            "font-medium",
+            "text-sm",
+            "transition",
+            "shadow-lg",
+            "shadow-indigo-600/30",
+            "border",
+            "border-indigo-400/30",
+            "focus:outline-none",
+            "focus:ring-2",
+            "focus:ring-indigo-400"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Star Lane Collector &copy; 2025 Setfarm Games",
+          "classes": [],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Three-Lane Orbit Dynamics Mode",
+          "classes": [],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        }
+      ],
+      "inputs": [],
+      "navLinks": [],
+      "cards": [],
+      "icons": [],
+      "images": [],
+      "cssVars": {},
+      "colorPalette": {},
+      "fonts": [],
+      "layoutHints": {
+        "gridCols": 3,
+        "flexDirection": "col",
+        "gap": "4"
+      },
+      "behaviorContract": [
+        {
+          "kind": "button",
+          "label": "Start Round",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Restart Round",
+          "icon": null,
+          "action": "reset",
+          "expectedBehavior": "reset visible value/state, with confirmation if destructive"
+        },
+        {
+          "kind": "button",
+          "label": "Open Settings",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Move Left",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Move Center",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Move Right",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Collect Star",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Resume Game",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Star Lane Collector &copy; 2025 Setfarm Games",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Three-Lane Orbit Dynamics Mode",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        }
+      ],
+      "tabBar": [
+        {
+          "kind": "button",
+          "label": "Star Lane Collector &copy; 2025 Setfarm Games",
+          "icon": null,
+          "active": false
+        },
+        {
+          "kind": "button",
+          "label": "Three-Lane Orbit Dynamics Mode",
+          "icon": null,
+          "active": false
+        }
+      ],
+      "title": "Play Page - Star Lane Collector"
+    }
+  }
+}
